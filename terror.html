@@ -3,7 +3,7 @@
 <html lang="pt-BR">
     <style>
         body{
-            background-color: black;
+            background: linear-gradient(black,aqua);
             display: flex;
             justify-content: center;
             text-align: center;
@@ -66,6 +66,10 @@
             text-decoration: none;
         }
 
+        .logo :hover{
+            transform: rotate(360deg);
+        }
+
         @keyframes surgir {
     from {
         opacity: 0;
@@ -83,7 +87,7 @@
         box-shadow: 10px 20px 20px aquamarine;
     }
     50% {
-        box-shadow: 10px 20px 40px aqua; /* Brilha mais */
+        box-shadow: 10px 20px 40px aqua; 
     }
     100% {
         box-shadow: 10px 20px 20px aquamarine;
